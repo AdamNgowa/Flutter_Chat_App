@@ -57,6 +57,7 @@ class ChatMessages extends StatelessWidget {
                 isMe: authenticatedUser.uid == currentMessageUserId,
               );
             }
+            return null;
           },
         );
       },
