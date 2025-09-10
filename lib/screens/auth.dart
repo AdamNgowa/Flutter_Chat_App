@@ -140,6 +140,7 @@ class _AuthScreenState extends State<AuthScreen> {
                                     value.trim().length < 4) {
                                   return 'Please enter at least 4 characters.';
                                 }
+                                return null;
                               },
                               onSaved: (value) {
                                 _enteredUsername = value!;
